@@ -1,10 +1,16 @@
 :root{
-    --background-color: #050E14;
-    ---background-lighter: argb(5, 14, 20, 80);
+    --background-color: #050e14;
+    --background-lighter: hsl(204, 60%, 15%);
+    --background-lightest: hsl(204, 60%, 30%);
     --text-color: #E5EFF6;
     --primary-color: #8AC4EC;
     --secondary-color: #0e67a4;
     --accent-color: #1fa2fc;
+}
+
+.outer-header-div{
+    background-color: var(--text-color);
+    height: 1px;
 }
 
 .sticky-top{
@@ -26,20 +32,13 @@
     background-image: var(--backimage);
 }
 
-.hidden-mirrored-div{
-    display: flex;
-    visibility: hidden;
-    margin-right: auto;
-    margin-left: 4%;
-}
 .top-links{
     display: flex;
     margin-left: auto;
     margin-right: 4%;
 }
 
-.top-links > a,
-.hidden-mirrored-div > a{
+.top-links > a{
     margin: 10px;
     color: var(--text-color);
 }
