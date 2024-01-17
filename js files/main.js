@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded',function(){
     let fadeInImage = document.getElementById('poster-image');
     let backImage = document.getElementById('back-image');
     const imageArray = [
-        '/images/frontpage images/Path-of-exile-2.jpg',
-        '/images/frontpage images/pubg.jpg',
-        '/images/frontpage images/gtav.jpg',
-        '/images/frontpage images/csgo2.jpg',
-        '/images/frontpage images/lethalcompany.jpg',
-        '/images/frontpage images/baldurs-gate-3.jpg'
+        '/images/frontpage-images/Path-of-exile-2.jpg',
+        '/images/frontpage-images/pubg.jpg',
+        '/images/frontpage-images/gtav.jpg',
+        '/images/frontpage-images/csgo2.jpg',
+        '/images/frontpage-images/lethalcompany.jpg',
+        '/images/frontpage-images/baldurs-gate-3.jpg'
     ];
 
     let currentImageIndex = 0;
@@ -25,3 +25,5 @@ document.addEventListener('DOMContentLoaded',function(){
 
     setInterval(changeImage, 5000);
 });
+
+let slider = document.getElementById

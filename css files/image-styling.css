@@ -1,3 +1,13 @@
+:root{
+    --background-color: #050e14;
+    --background-lighter: hsl(204, 60%, 15%);
+    --background-lightest: hsl(204, 60%, 30%);
+    --text-color: #E5EFF6;
+    --primary-color: #8AC4EC;
+    --secondary-color: #0e67a4;
+    --accent-color: #1fa2fc;
+}
+
 #fader{
     display: flex;
     align-items: center;

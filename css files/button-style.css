@@ -1,4 +1,14 @@
-.buy-btn{
+:root{
+    --background-color: #050e14;
+    --background-lighter: hsl(204, 60%, 15%);
+    --background-lightest: hsl(204, 60%, 30%);
+    --text-color: #E5EFF6;
+    --primary-color: #8AC4EC;
+    --secondary-color: #0e67a4;
+    --accent-color: #1fa2fc;
+}
+
+.rate-btn{
     background-color: var(--background-lightest);
     filter: brightness(80%);
     color: var(--text-color);
@@ -15,21 +25,22 @@
     margin-top: auto;
 }
 
-.next-site-btn.buy-btn{
+.next-site-btn.rate-btn{
     font-size: x-large;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.buy-btn:hover{
+.rate-btn:hover{
     cursor: pointer;
     opacity: 80%;
+    background-color: var;
     padding-left: 30px;
     padding-right: 30px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.buy-btn:active{
+.rate-btn:active{
     filter: brightness(80%);
 }
