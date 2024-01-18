@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css files/page-boxes.css">
     <link rel="stylesheet" href="css files/button-style.css">
     <link rel="stylesheet" href="css files/image-styling.css">
-    <script src="js files/main.js" defer></script>
+    <script src="js files/gamify-page.js" defer></script>
 </head>
 <body>
     <div class="sticky-top">
@@ -27,24 +27,96 @@
         <div class="outer-header-div"></div>
     </div>
     <main>
-        <div class="flex-box">
+
+        <!-- /*Måste finnas ett bättre sätt att göra detta på?*/ -->
+        <div class="flex-box gamify-box">
+
             <div class="item-box rate-box" id="lethal-company-box">
                 <div class="item-name">
                     <p>Lethal company</p>
                 </div>
-                <div>
-                    <span id="slider-value">5</span>
-                    <input type="range" class="slider" name="slider" min="1" max="10" value="5">
-                </div>
-                
+                <div class="slider-box">
+                    <span class="slider-value" id="lethal-slider-value">5</span>
+                    <input type="range" class="slider" name="slider" id="lethal-slider" min="1" max="10" value="5">
+                </div> 
                 <div class="btn-box">
                     <button class="rate-btn">Rate it</button>
                 </div>  
-               
-                 
             </div>
-            <div class="item-box" id="baldurs-box">
-                
+
+            <div class="item-box rate-box" id="baldurs-box">
+                <div class="item-name">
+                    <p>
+                        Baldurs Gate 3
+                    </p>
+                </div>
+                <div class="slider-box">
+                    <span class="slider-value" id="baldurs-slider-value">5</span>
+                    <input type="range" class="slider" name="slider" id="baldurs-slider" min="1" max="10" value="5">
+                </div>
+                <div class="btn-box">
+                    <button class="rate-btn">Rate it</button>
+                </div>
+            </div>
+
+            <div class="item-box rate-box" id="csgo-box">
+                <div class="item-name">
+                    <p>
+                        CS:GO 2
+                    </p>
+                </div>
+                <div class="slider-box">
+                    <span class="slider-value" id="csgo-slider-value">5</span>
+                    <input type="range" class="slider" name="slider" id="csgo-slider" min="1" max="10" value="5">
+                </div>
+                <div class="btn-box">
+                    <button class="rate-btn">Rate it</button>
+                </div>
+            </div>
+
+            <div class="item-box rate-box" id="gtav-box">
+                <div class="item-name">
+                    <p>
+                        Grand Theft Auto V
+                    </p>
+                </div>
+                <div class="slider-box">
+                    <span class="slider-value" id="gtav-slider-value">5</span>
+                    <input type="range" class="slider" name="slider" id="gtav-slider" min="1" max="10" value="5">
+                </div>
+                <div class="btn-box">
+                    <button class="rate-btn">Rate it</button>
+                </div>
+            </div>
+
+            <div class="item-box rate-box" id="poe2-box">
+                <div class="item-name">
+                    <p>
+                        Path of Exile 2
+                    </p>
+                </div>
+                <div class="slider-box">
+                    <span class="slider-value" id="poe2-slider-value">5</span>
+                    <input type="range" class="slider" name="slider" id="poe2-slider" min="1" max="10" value="5">
+                </div>
+                <div class="btn-box">
+                    <button class="rate-btn">Rate it</button>
+                </div>
+            </div>
+
+            <div class="item-box rate-box" id="pubg-box">
+                <div class="item-name">
+                    <p>
+                        PUBG: Battlegrounds
+                    </p>
+                </div>
+                <div class="slider-box">
+                    <span class="slider-value" id="pubg-slider-value">5</span>
+                    <input type="range" class="slider" name="slider" id="pubg-slider" min="1" max="10" value="5">
+                </div>
+                <div class="btn-box">
+                    <button class="rate-btn">Rate it</button>
+                </div>
             </div>
         </div>
     </main>

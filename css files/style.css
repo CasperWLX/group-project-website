@@ -35,12 +35,10 @@ div > div > p{
     background-color: black;
 }
 
-.slider{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    color: rgb(0, 154, 0);
-    font-size: 15px;
-    line-height: 10px;
+#slider-value{
+    width: 1vw;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .main-text{

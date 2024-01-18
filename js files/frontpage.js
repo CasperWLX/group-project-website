@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded',function(){
     let currentImageIndex = 0;
 
     function changeImage(){
-        backImage.src = fadeInImage.src
+        backImage.src = fadeInImage.src;
         fadeInImage.style.animation = 'none';
         fadeInImage.src = imageArray[currentImageIndex];
         fadeInImage.offsetHeight;
@@ -26,4 +26,3 @@ document.addEventListener('DOMContentLoaded',function(){
     setInterval(changeImage, 5000);
 });
 
-let slider = document.getElementById

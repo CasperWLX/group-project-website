@@ -27,6 +27,10 @@
     overflow: hidden;
 }
 
+.flex-box.gamify-box{
+    flex-wrap: wrap;
+}
+
 .item-box{
     display: flex;
     flex-direction: row;
@@ -61,6 +65,11 @@
     justify-content: center;
 }
 
+.slider-box{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .item-box.main-btn-box{
     background-color: var(--background-color);
 }
@@ -76,4 +85,20 @@
 
 #baldurs-box{
     background-image: url('/images/game-images/baldurs-gate-3.jpg');
+}
+
+#csgo-box{
+    background-image: url('/images/game-images/csgo2.jpg');
+}
+
+#gtav-box{
+    background-image: url('/images/game-images/gtav.jpg');
+}
+
+#poe2-box{
+    background-image: url('/images/game-images/Path-of-exile-2.jpg');
+}
+
+#pubg-box{
+    background-image: url('/images/game-images/pubg.jpg');
 }
